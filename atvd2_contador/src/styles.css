@@ -1,4 +1,45 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.botoesIndividuais{
+  display: flex;
+  margin: 10px;
+
+}
+.botoesIndividuais div{
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid black;
+}
+.botoesIndividuais button{
+  height: 30px;
+  width: 30px;
+
+  font-size: 20px;
+  margin: 5px;
+}
+
+.divsGlobais{
+  display: flex;
+
+}
+.divsGlobais div{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.botoesGlob button {
+  height: 30px;
+  width: 30px;
+
+  font-size: 20px;
+  margin: 5px;
 }
