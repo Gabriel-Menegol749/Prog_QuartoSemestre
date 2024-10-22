@@ -1,17 +1,14 @@
-export function BotaoTrocaNum (){
-    return(
-        <div className="botoesGlob">
-            <button className="aumentarNum"> -</button>
-            <button className="diminuirNum"> +</button>
-        </div>
+import React from "react";
 
-    )
-}
-
-export function NumeroGlobTroc(){
-    return(
-        <div className="numeroTrocGLOB">
-            <h1 className="num">Número: x</h1>
-        </div>
-    )
+export default function GlobalControls({
+  alterarTodos
+}: {
+  alterarTodos: (valor: number) => void;
+}) {
+  return (
+    <div className="botoesGlobais">
+      <button onClick={() => alterarTodos(-1)} className="menosGlobal">Diminuir Todos</button>
+      <button onClick={() => alterarTodos(1)} className="maisGlobal">Aumentar Todos</button>
+    </div>
+  );
 }

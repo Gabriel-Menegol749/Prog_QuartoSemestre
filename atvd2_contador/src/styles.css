@@ -36,10 +36,17 @@
   border: 2px solid black;
 }
 
-.botoesGlob button {
+.botoesGlobais{
+  display: flex;
+}
+.botoesGlobais button {
   height: 30px;
-  width: 30px;
+  width:200px;
 
   font-size: 20px;
   margin: 5px;
+}
+
+.num{
+  margin: 15px;
 }
