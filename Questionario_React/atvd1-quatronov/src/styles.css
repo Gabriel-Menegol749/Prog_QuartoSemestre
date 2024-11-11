@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.conteudo {
+  justify-items: left;
+  margin-left: 90px;
+  text-align: start;
+}

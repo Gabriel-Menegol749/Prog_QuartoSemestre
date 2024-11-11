@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formurario {
+  margin: 10px;
+  padding: 10px;
+
+  width: 70%;
+
+  border: 2px solid black;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formurario input {
+  width: 80%;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.senha {
+  width: 100%;
+  margin-left: 35px;
+}
+.senha button {
+  margin-left: 5px;
+}
+.instrucoes {
+  margin-top: 20px;
+  text-align: left;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.7;
+  font-size: 14px;
+}
+.mensagem_deErro {
+  color: red;
+}
